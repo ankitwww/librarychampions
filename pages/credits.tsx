@@ -4,6 +4,7 @@ import {
   Button,
   Center,
   Container,
+  Divider,
   Heading,
   HStack,
   Img,
@@ -19,10 +20,13 @@ import { LibbyScreen } from "../components/calculator/libby";
 import { LinkedInScreen } from "../components/calculator/linkedin";
 import { OreillyScreen } from "../components/calculator/oreilly";
 import { MangoScreen } from "../components/calculator/mango";
+import { Footer } from "../components/Footer";
+import { NavBar } from "../components/Navbar";
 
 export default function Home() {
   return (
     <>
+      <NavBar />
       <Center as="section">
         <Box
           maxW="4xl"
@@ -30,6 +34,11 @@ export default function Home() {
           py={{ base: "16", sm: "20" }}
           textAlign="left"
         >
+          <Text fontWeight={"bold"} fontSize="x-large">
+            Credits - Jerome (core idea), Members of North Shore Library
+            champions - Fall 2022 batch (Content and Feedback).
+          </Text>
+          <Divider my={8} />
           <Text fontWeight={"extrabold"} fontSize="x-large">
             Privacy Policy
           </Text>
@@ -541,6 +550,9 @@ export default function Home() {
           </ul>
         </Box>
       </Center>
+      <Box as="section" px={{ base: "6", lg: "12" }} mt={24} bg="gray.50">
+        <Footer />
+      </Box>
     </>
   );
 }

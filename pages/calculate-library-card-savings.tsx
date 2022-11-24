@@ -19,6 +19,8 @@ import { LibbyScreen } from "../components/calculator/libby";
 import { LinkedInScreen } from "../components/calculator/linkedin";
 import { OreillyScreen } from "../components/calculator/oreilly";
 import { MangoScreen } from "../components/calculator/mango";
+import { Footer } from "../components/Footer";
+import { NavBar } from "../components/Navbar";
 
 export default function Home() {
   const [screen, setScreen] = useState<number>(0);
@@ -35,6 +37,7 @@ export default function Home() {
   };
   return (
     <>
+      <NavBar />
       <Center justifyContent={"center"} as="section">
         <Box
           maxW="7xl"
@@ -110,6 +113,9 @@ export default function Home() {
           </Box>
         </Box>
       </Center>
+      <Box as="section" px={{ base: "6", lg: "12" }} mt={24} bg="gray.50">
+        <Footer />
+      </Box>
     </>
   );
 }

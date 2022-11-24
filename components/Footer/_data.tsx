@@ -27,7 +27,7 @@ export const links = [
   {
     links: [
       { label: "Federal JobBank", href: "https://www.jobbank.gc.ca" },
-      { label: "Privacy Policies", href: "/privacy" },
+      { label: "Credit & Privacy", href: "/credits" },
     ],
   },
 ];
