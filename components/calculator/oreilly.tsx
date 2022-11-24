@@ -25,13 +25,13 @@ export const OreillyScreen = ({ handleClick }: any) => (
         color={mode("blue.600", "blue.200")}
         whiteSpace="nowrap"
       >
-        Need O'Reilly Books or Courses?
+        Need O&apos;Reilly Books or Courses?
       </Box>{" "}
     </Heading>
     <Text fontSize="lg" maxW="xl" mx="auto">
-      O'Reilly for Public Libraries (formerly Safari Books Online) offers
+      O&apos;Reilly for Public Libraries (formerly Safari Books Online) offers
       resources for learning about business, technology, design, science,
-      engineering, travel, hobbies, health and more. O'Reilly includes over
+      engineering, travel, hobbies, health and more. O&apos;Reilly includes over
       50,000 books from top publishers (including pre-release titles for the
       most up-to-date information), more than 30,000 hours of video content,
       case studies from top companies, learning paths and expert playlists.
