@@ -85,15 +85,9 @@ export default function Home() {
               library card? Try our free saving calculator by answering a few
               simple questions! Its going to be your biggest holiday deal!!
             </Text>
-            <Stack direction={{ base: "column", sm: "row" }} spacing="4" mt="8">
+            <Stack direction="row" spacing="4" mt="8">
               <NextLink href="/calculate-library-card-savings" passHref>
-                <Button
-                  size="lg"
-                  colorScheme="blue"
-                  height="14"
-                  px="8"
-                  fontSize="md"
-                >
+                <Button size="md" colorScheme="blue" height="14" fontSize="md">
                   Calculate Savings
                 </Button>
               </NextLink>
@@ -103,12 +97,11 @@ export default function Home() {
                 passHref
               >
                 <Button
-                  size="lg"
+                  size="md"
                   bg="white"
                   color="gray.800"
                   _hover={{ bg: "gray.50" }}
                   height="14"
-                  px="8"
                   shadow="base"
                   fontSize="md"
                 >
