@@ -2,6 +2,7 @@ import {
   Badge,
   Box,
   Button,
+  Center,
   Container,
   Heading,
   HStack,
@@ -12,6 +13,9 @@ import {
 } from "@chakra-ui/react";
 import { HiArrowRight } from "react-icons/hi";
 import NextLink from "next/link";
+import { Footer } from "../components/Footer";
+import CookieConsent from "react-cookie-consent";
+import { InfoSection } from "../components/InfoSection";
 
 export default function Home() {
   return (
@@ -132,6 +136,15 @@ export default function Home() {
           />
         </Box>
       </Box>
+      <Center py={12}>
+        <InfoSection />
+      </Center>
+      <Box as="section" mt={24} bg="gray.50">
+        <Footer />
+      </Box>
+      <CookieConsent>
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </>
   );
 }
