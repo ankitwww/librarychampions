@@ -19,7 +19,6 @@ import { LibbyScreen } from "../components/calculator/libby";
 import { LinkedInScreen } from "../components/calculator/linkedin";
 import { OreillyScreen } from "../components/calculator/oreilly";
 import { MangoScreen } from "../components/calculator/mango";
-import { SavingScreen } from "../components/calculator/savingScreen";
 
 export default function Home() {
   const [screen, setScreen] = useState<number>(0);

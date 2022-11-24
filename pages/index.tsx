@@ -28,7 +28,7 @@ export default function Home() {
             pt={{ base: "20", lg: "40" }}
             pb={{ base: "16", lg: "24" }}
           >
-            <HStack
+            {/* <HStack
               className="group"
               as="a"
               href="#"
@@ -58,7 +58,8 @@ export default function Home() {
                 as={HiArrowRight}
                 display="inline-block"
               />
-            </HStack>
+            </HStack> */}
+
             <Heading
               as="h1"
               size="3xl"
