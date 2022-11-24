@@ -136,10 +136,10 @@ export default function Home() {
           />
         </Box>
       </Box>
-      <Center py={12}>
+      <Center px={{ base: "6", lg: "12" }} py={12}>
         <InfoSection />
       </Center>
-      <Box as="section" mt={24} bg="gray.50">
+      <Box as="section" px={{ base: "6", lg: "12" }} mt={24} bg="gray.50">
         <Footer />
       </Box>
       <CookieConsent>

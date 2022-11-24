@@ -22,7 +22,6 @@ import { links } from "./_data";
 
 export const Footer = () => (
   <>
-    <Divider />
     <Center>
       <Box as="footer" role="contentinfo">
         <Stack
