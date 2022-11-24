@@ -19,14 +19,17 @@ export const OreillyScreen = ({ handleClick }: any) => (
       letterSpacing="tight"
       lineHeight="1.2"
     >
+      Need
       <Box
         as="mark"
         bg="unset"
+        mx={2}
         color={mode("blue.600", "blue.200")}
         whiteSpace="nowrap"
       >
-        Need O&apos;Reilly Books or Courses?
+        O&apos;Reilly
       </Box>{" "}
+      Books or Courses?
     </Heading>
     <Text fontSize="lg" maxW="xl" mx="auto">
       O&apos;Reilly for Public Libraries (formerly Safari Books Online) offers

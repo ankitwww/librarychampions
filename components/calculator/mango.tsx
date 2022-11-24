@@ -19,21 +19,23 @@ export const MangoScreen = ({ handleClick }: any) => (
       letterSpacing="tight"
       lineHeight="1.2"
     >
+      Learning new
       <Box
         as="mark"
         bg="unset"
+        ml={2}
         color={mode("blue.600", "blue.200")}
         whiteSpace="nowrap"
       >
-        Learning a new Language?
-      </Box>{" "}
+        Language?
+      </Box>
     </Heading>
     <Text fontSize="lg" maxW="xl" mx="auto">
-      Use{" "}
+      Use
       <Box
         as="mark"
         fontWeight={"extrabold"}
-        mr={1}
+        mx={1}
         color={mode("blue.500", "blue.300")}
         bg="transparent"
       >

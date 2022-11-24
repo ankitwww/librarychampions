@@ -19,14 +19,17 @@ export const LinkedInScreen = ({ handleClick }: any) => (
       letterSpacing="tight"
       lineHeight="1.2"
     >
+      Use
       <Box
         as="mark"
         bg="unset"
+        mx={2}
         color={mode("blue.600", "blue.200")}
         whiteSpace="nowrap"
       >
-        Wanna use LinkedIn Learning for free?
+        LinkedIn Learning
       </Box>{" "}
+      for free?
     </Heading>
     <Text fontSize="lg" maxW="xl" mx="auto">
       LinkedIn Learning catalogue offers video courses in business, computer
@@ -39,7 +42,6 @@ export const LinkedInScreen = ({ handleClick }: any) => (
       mt="10"
       justify="center"
       spacing={{ base: "3", md: "5" }}
-      maxW="md"
       mx="auto"
     >
       <Button
