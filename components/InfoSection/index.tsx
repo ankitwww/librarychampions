@@ -25,8 +25,8 @@ export const InfoSection = () => (
           >
             Benefits
           </Text>
-          <Heading size={useBreakpointValue({ base: "sm", md: "md" })}>
-            What can you expect at public Libraries?
+          <Heading size={useBreakpointValue({ base: "lg", md: "xl" })}>
+            What can you expect at public libraries?
           </Heading>
         </Stack>
         <Text color="muted" fontSize={{ base: "lg", md: "xl" }} maxW="3xl">
