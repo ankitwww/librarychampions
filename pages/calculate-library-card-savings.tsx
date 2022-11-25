@@ -1,32 +1,19 @@
 import {
-  Badge,
   Box,
   Button,
   Center,
-  Container,
   Heading,
-  HStack,
-  Img,
   Stack,
   Text,
   useColorModeValue as mode,
 } from "@chakra-ui/react";
-import { HiArrowRight } from "react-icons/hi";
+import { Benefit } from "../types/Benefit";
+import { Footer } from "../components/Footer";
+import { GenericBenefitScreen } from "../components/calculator/GenericBenefitScreen";
+import { NavBar } from "../components/Navbar";
 import NextLink from "next/link";
 import { StartScreen } from "../components/calculator/startScreen";
 import { useState } from "react";
-import { LibbyScreen } from "../components/calculator/libby";
-import { LinkedInScreen } from "../components/calculator/linkedin";
-import { OreillyScreen } from "../components/calculator/oreilly";
-import { MangoScreen } from "../components/calculator/mango";
-import { Footer } from "../components/Footer";
-import { NavBar } from "../components/Navbar";
-import { BorrowDeviceScreen } from "../components/calculator/BorrowDevice";
-import { PressReaderScreen } from "../components/calculator/PressReader";
-import { TumbleBookScreen } from "../components/calculator/TumbleBook";
-import { CreativeBugScreen } from "../components/calculator/CreativeBug";
-import { GenericBenefitScreen } from "../components/calculator/GenericBenefitScreen";
-import { Benefit } from "../types/Benefit";
 
 export default function Home() {
   const [screen, setScreen] = useState<number>(0);

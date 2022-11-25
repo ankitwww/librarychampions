@@ -32,38 +32,6 @@ export default function Home() {
             pt={{ base: "20", lg: "40" }}
             pb={{ base: "16", lg: "24" }}
           >
-            {/* <HStack
-              className="group"
-              as="a"
-              href="#"
-              px="2"
-              py="1"
-              bg={mode("gray.200", "gray.700")}
-              rounded="full"
-              fontSize="sm"
-              mb="8"
-              display="inline-flex"
-              minW="18rem"
-            >
-              <Badge
-                px="2"
-                variant="solid"
-                colorScheme="green"
-                rounded="full"
-                textTransform="capitalize"
-              >
-                New
-              </Badge>
-              <Box fontWeight="medium">Learn more about Library Champions</Box>
-              <Box
-                aria-hidden
-                transition="0.2s all"
-                _groupHover={{ transform: "translateX(2px)" }}
-                as={HiArrowRight}
-                display="inline-block"
-              />
-            </HStack> */}
-
             <Heading
               as="h1"
               size="3xl"
