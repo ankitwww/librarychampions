@@ -164,7 +164,7 @@ export default function Home() {
                 </Heading>
               ) : null}
               <Text fontSize="lg" maxW="xl" mx="auto">
-                Get a free library Today from your nearest public library!
+                Get a free library card today from your nearest public library!
               </Text>
               <Stack
                 direction={{ base: "column", sm: "row" }}
