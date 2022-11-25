@@ -20,13 +20,8 @@ export const StartScreen = ({ handleClick }: any) => (
         letterSpacing="tight"
         lineHeight="1.5"
       >
-        How much you can with{" "}
-        <Box
-          as="mark"
-          bg="unset"
-          color={mode("blue.600", "blue.200")}
-          whiteSpace="nowrap"
-        >
+        How much you can save with{" "}
+        <Box as="mark" bg="unset" color={mode("blue.600", "blue.200")}>
           your free Library card?
         </Box>{" "}
       </Heading>
