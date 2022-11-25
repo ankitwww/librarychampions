@@ -84,7 +84,7 @@ export const Footer = () => (
           <ButtonGroup variant="ghost">
             <IconButton
               as="a"
-              href="https://www.youtube.com/@NorthVancouverCityLibrary"
+              href="https://www.youtube.com/vancouverlibrary"
               aria-label="Youtube"
               icon={<FaYoutube fontSize="1.25rem" />}
             />

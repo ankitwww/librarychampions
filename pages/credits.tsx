@@ -35,7 +35,7 @@ export default function Home() {
           textAlign="left"
         >
           <Text fontWeight={"bold"} fontSize="x-large">
-            Credits - Jerome (core idea), Members of North Shore Library
+            Credits - Jerome (Core idea), Members of North Shore Library
             champions - Fall 2022 batch (Content and Feedback).
           </Text>
           <Divider my={8} />
