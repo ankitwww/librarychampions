@@ -140,14 +140,7 @@ export default function Home() {
               handleClick={handleClick}
             />
           ) : null}
-          {/* {screen == 1 && <LibbyScreen handleClick={handleClick} />}
-          {screen == 2 && <LinkedInScreen handleClick={handleClick} />}
-          {screen == 3 && <OreillyScreen handleClick={handleClick} />}
-          {screen == 4 && <MangoScreen handleClick={handleClick} />}
-          {screen == 5 && <BorrowDeviceScreen handleClick={handleClick} />}
-          {screen == 6 && <PressReaderScreen handleClick={handleClick} />}
-          {screen == 7 && <TumbleBookScreen handleClick={handleClick} />}
-          {screen == 8 && <CreativeBugScreen handleClick={handleClick} />} */}
+
           {screen == 9 && (
             <Box>
               {totalSavings > 0 ? (
@@ -158,7 +151,7 @@ export default function Home() {
                   letterSpacing="tight"
                   lineHeight="1.5"
                 >
-                  Your potential savings are
+                  🎉 Your potential savings are
                   <Box
                     as="mark"
                     bg="unset"
