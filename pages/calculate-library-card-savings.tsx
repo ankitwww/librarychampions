@@ -96,9 +96,9 @@ export default function Home() {
       screenNumber: 6,
       name: "PressReader",
       titleText: "How about Newspapers & magazines?",
-      preDescription:
-        " gives you access to thousands of stories in newspapers and magazines throughout the world including local publications like The Vancouver Sun, The Province and National Post..",
-      postDescription: "",
+      preDescription: " ",
+      postDescription:
+        " gives you access to thousands of stories in newspapers and magazines throughout the world including local publications like The Vancouver Sun, The Province and National Post.",
       blueText: "PressReader",
     },
     {
