@@ -19,7 +19,7 @@ export const links = [
   },
   {
     links: [
-      { label: "WorkBC", href: "https://www.workbc.com" },
+      { label: "WorkBC", href: "https://www.workbc.ca" },
       { label: "Skilled Immigrants", href: "https://www.vpl.ca/siic/" },
     ],
   },
