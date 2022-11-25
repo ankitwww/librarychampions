@@ -1,29 +1,14 @@
 import {
-  Badge,
   Box,
-  Button,
   Center,
-  Container,
   Divider,
-  Heading,
-  HStack,
-  Img,
-  Stack,
   Text,
   useColorModeValue as mode,
 } from "@chakra-ui/react";
-import { HiArrowRight } from "react-icons/hi";
-import NextLink from "next/link";
-import { StartScreen } from "../components/calculator/startScreen";
-import { useState } from "react";
-import { LibbyScreen } from "../components/calculator/libby";
-import { LinkedInScreen } from "../components/calculator/linkedin";
-import { OreillyScreen } from "../components/calculator/oreilly";
-import { MangoScreen } from "../components/calculator/mango";
 import { Footer } from "../components/Footer";
 import { NavBar } from "../components/Navbar";
 
-export default function Home() {
+export default function Credits() {
   return (
     <>
       <NavBar />
@@ -37,6 +22,17 @@ export default function Home() {
           <Text fontWeight={"bold"} fontSize="x-large">
             Credits - Jerome (Core idea), Members of North Shore Library
             champions - Fall 2022 batch (Content and Feedback).
+          </Text>
+          <Text mt={4} fontWeight={"bold"} fontSize="large">
+            Open source! - The code of this website is available on{" "}
+            <a
+              style={{ color: "blue", textDecoration: "underline" }}
+              href="https://github.com/ankitwww/librarychampions"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           </Text>
           <Divider my={8} />
           <Text fontWeight={"extrabold"} fontSize="x-large">
