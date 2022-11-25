@@ -6,7 +6,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title key="title">Library Champions OutReach - NewToBC</title>
+        <title key="title">
+          Biggest Black Friday deal is your free Library Card
+        </title>
         <meta
           name="description"
           key="description"
@@ -15,12 +17,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta
           property="og:title"
           key="og:title"
-          content="Library Champions OutReach - NewToBC"
+          content="Biggest Black Friday deal is your free Library Card"
         />
         <meta
           property="og:description"
           key="og:description"
-          content="A fun project by North Shore Library Champions - Fall 2022 batch"
+          content="Do you know how much you can save using a free public library card? A fun project by North Shore Library Champions - Fall 2022 batch"
         />
         <meta
           property="og:url"
@@ -30,7 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta
           property="og:image"
           key="og:image"
-          content="https://newtobc.ca/wp-content/uploads/2021/03/Library-Champions-Project-Header.jpg"
+          content="https://librarychampions.ankitwww.com/deal.jpg"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
