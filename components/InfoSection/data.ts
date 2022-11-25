@@ -13,7 +13,7 @@ export const features = [
   {
     name: 'Get job ready',
     description:
-      'LinkedIn Learning, O&apos;Reilly Books, Skilled Immgirant InfoCenter and many more resources.',
+      'LinkedIn Learning, O\'Reilly Books, Skilled Immgirant InfoCenter and many more resources.',
     icon: IoRocketSharp,
   },
   {
